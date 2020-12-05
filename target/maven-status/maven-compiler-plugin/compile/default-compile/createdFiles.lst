@@ -1,0 +1,10 @@
+com\mycompany\sistemacentralizadomysql\entity\Productos.class
+com\mycompany\sistemacentralizadomysql\View\Frame_Test.class
+com\mycompany\sistemacentralizadomysql\main\Test.class
+com\mycompany\sistemacentralizadomysql\View\Frame_Test$2.class
+com\mycompany\sistemacentralizadomysql\controller\ProductosJpaController.class
+com\mycompany\sistemacentralizadomysql\controller\exceptions\PreexistingEntityException.class
+com\mycompany\sistemacentralizadomysql\controller\exceptions\IllegalOrphanException.class
+com\mycompany\sistemacentralizadomysql\View\Frame_Test$1.class
+com\mycompany\sistemacentralizadomysql\controller\exceptions\NonexistentEntityException.class
+com\mycompany\sistemacentralizadomysql\entity\Productos_.class
