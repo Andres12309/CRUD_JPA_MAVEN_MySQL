@@ -47,17 +47,18 @@ public class Test {
     /**
      * @param args the command line arguments
      */
-    public static void main(String[] args) {
+    public void main(String[] args) {
         // TODO code application logic here
         
-        EntityManagerFactory emf = Persistence.createEntityManagerFactory("productosbd");
+        /*EntityManagerFactory emf = Persistence.createEntityManagerFactory("productosbd");
         ProductosJpaController productoController = new ProductosJpaController(emf);
         
         Productos pro = new Productos();
         
         pro.setNombre("Pera");
         pro.setPrecio(BigDecimal.valueOf(12));
-        productoController.create(pro);
+        
+        productoController.create(pro);*/
         
     }
     
