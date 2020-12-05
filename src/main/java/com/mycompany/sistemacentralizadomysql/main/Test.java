@@ -7,6 +7,7 @@ package com.mycompany.sistemacentralizadomysql.main;
 
 import com.mycompany.sistemacentralizadomysql.controller.ProductosJpaController;
 import com.mycompany.sistemacentralizadomysql.entity.Productos;
+import java.math.BigDecimal;
 import javax.persistence.EntityManagerFactory;
 import javax.persistence.Persistence;
 
@@ -53,6 +54,10 @@ public class Test {
         ProductosJpaController productoController = new ProductosJpaController(emf);
         
         Productos pro = new Productos();
+        
+        pro.setNombre("Pera");
+        pro.setPrecio(BigDecimal.valueOf(12));
+        productoController.create(pro);
         
     }
     
